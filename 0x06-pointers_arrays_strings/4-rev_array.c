@@ -2,8 +2,6 @@
 
 /**
 *  reverse_array - function that reverse content of array
-
-
 *  @a: array
 *  @n: number of elements
 */
@@ -17,5 +15,4 @@ tmp = a[n - 1 - index];
 a[n - 1 - index] = a[index];
 a[index] = tmp;
 }
-return 0;
 }
