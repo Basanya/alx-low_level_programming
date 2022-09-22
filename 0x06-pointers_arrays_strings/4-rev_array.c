@@ -17,4 +17,5 @@ tmp = a[n - 1 - index];
 a[n - 1 - index] = a[index];
 a[index] = tmp;
 }
+return 0;
 }
