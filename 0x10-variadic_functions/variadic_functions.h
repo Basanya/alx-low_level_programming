@@ -1,4 +1,3 @@
-
 #ifndef _VARIADIC_FUNCTIONS_H_
 #define _VARIADIC_FUNCTIONS_H_
 
@@ -10,7 +9,7 @@
  */
 typedef struct print
 {
-	char *t:
+	char *t;
 	void (*f)(va_list);
 } print_t;
 
